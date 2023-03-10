@@ -5,11 +5,15 @@ h1,h3 {
 }
 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+>>>>>>> Stashed changes
 h3 {
     font-size: 24px;
    
 }
 .logo img {
+<<<<<<< Updated upstream
 width: 25%; 
 height: 25%;
 }
@@ -22,4 +26,20 @@ height: 25%;
 width: 25%; 
 height: 25%;
  }
+>>>>>>> Stashed changes
+=======
+width: 10%; 
+height: 10%;
+}
+.entreprise{
+    display: flex;
+    /*flex-direction: row;*/
+}
+.bestsellers{
+    display: flex;
+}
+footer{
+    background-image:url("image/image footer.png");
+    background-size: 100% 50%;
+}
 >>>>>>> Stashed changes
