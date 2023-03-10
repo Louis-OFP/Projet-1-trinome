@@ -4,30 +4,11 @@ h1,h3 {
     text-align: center;
 }
 
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-=======
->>>>>>> Stashed changes
 h3 {
     font-size: 24px;
    
 }
 .logo img {
-<<<<<<< Updated upstream
-width: 25%; 
-height: 25%;
-}
-=======
- h3 {
-    font-size: 24px;
-   
- }
- .logo img {
-width: 25%; 
-height: 25%;
- }
->>>>>>> Stashed changes
-=======
 width: 10%; 
 height: 10%;
 }
@@ -39,7 +20,10 @@ height: 10%;
     display: flex;
 }
 footer{
-    background-image:url("image/image footer.png");
+   /* background-image:url("image/image footer.png");
     background-size: 100% 50%;
+    position :absolute */
+    left:0%
+    right:0%
+    bottom:0%
 }
->>>>>>> Stashed changes
