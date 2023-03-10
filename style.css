@@ -1,13 +1,28 @@
 h1 {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: "fjalla one";
     text-align: center;
     font-size: 48px;
 }
 h3 {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: "fjalla one";
 }
 .logo img {
-    width: 15%;
-    height: 15%;
+    width: 10%;
+    height:10%;
     
+}
+.entreprise {
+    display: flex;
+
+}
+.entreprise img {
+    width: 25%;
+    height: 25%;
+}
+.bestsellers{
+    display: flex;
+}
+footer{
+    background-image: url("image/imagefooter2.png");
+    background-size: 100% 100%;
 }
