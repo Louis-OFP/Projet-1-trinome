@@ -1,3 +1,6 @@
+body{
+    background-color:  #f1dede;
+}
 h1 {
     font-family: "fjalla one";
     text-align: center;
@@ -5,26 +8,82 @@ h1 {
 }
 h3 {
     font-family: "fjalla one";
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+p{
+    font-family: "Lexend Deca"
 }
 .logo img {
-    width: 10%;
-    height:10%;
+    width: 15%;
+    height:15%;
     
 }
 .entreprise {
     display: flex;
-
+}
+.entreprise p{
+    display: block;
+    width: 300px;
+    padding-left: 40px;
+    text-align: justify;
 }
 .entreprise img {
     width: 25%;
     height: 25%;
+    border: 2px solid black;
+    box-shadow: 5px 5px 15px black;
+    border-radius: 10px;
 }
 .bestsellers{
     display: flex;
 }
-footer{
-    background-image: url("image/imagefooter2.png");
-    background-size: 100% 200%;
-    height: 200px;
-
+.bestsellers p{
+    display: block;
+    width: 300px;
+    padding-left: 40px;
+    text-align: justify;
 }
+.bestsellers img{
+    width: 200px;
+    height: 200px;
+    padding-left: 60px;
+}
+
+footer{
+      
+    background-color: #ad6a6c;
+    height: 150px;
+    padding-top: 40px;    
+}
+footer p{
+    text-align: center;
+    padding-top: 20px;
+}
+.reso {
+    display:flex;
+    justify-content: center;
+    align-items: center;  
+}
+.reso img {
+    padding-left: 80px;
+    padding-right: 80px;
+   /* display: flex;*/
+    margin: auto;   
+} 
+
+.zoom {
+    height:400px;
+    }
+.zoom p {
+    text-align:center;
+    }
+.zoom img {
+    width:200px;
+    height:200px;
+    }
+.zoom img:hover {
+    width:400px;
+    height:400px;
+    }
+ 
