@@ -1,28 +1,35 @@
-body{
+body {
     background-color:  #f1dede;
 }
 h1 {
     font-family: "fjalla one";
-    text-align: center;
     font-size: 48px;
+    margin: auto; 
 }
 h3 {
     font-family: "fjalla one";
     padding-top: 60px;
     padding-bottom: 60px;
+    padding-left: 60px;
 }
-p{
+p {
     font-family: "Lexend Deca"
 }
 .logo img {
-    width: 15%;
-    height:15%;
+    width: 270px;
+    height:175px;
     
+}
+header {
+    background-color: #1f5673;
+    display: flex;
 }
 .entreprise {
     display: flex;
+    padding-top: 50px;
+    padding-left: 50px;
 }
-.entreprise p{
+.entreprise p {
     display: block;
     width: 300px;
     padding-left: 40px;
@@ -35,28 +42,28 @@ p{
     box-shadow: 5px 5px 15px black;
     border-radius: 10px;
 }
-.bestsellers{
+.bestsellers {
     display: flex;
 }
-.bestsellers p{
+.bestsellers p {
     display: block;
     width: 300px;
     padding-left: 40px;
     text-align: justify;
 }
-.bestsellers img{
+.bestsellers img {
     width: 200px;
     height: 200px;
     padding-left: 60px;
 }
 
-footer{
+footer {
       
     background-color: #ad6a6c;
     height: 150px;
     padding-top: 40px;    
 }
-footer p{
+footer p {
     text-align: center;
     padding-top: 20px;
 }
