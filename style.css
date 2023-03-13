@@ -1,33 +1,88 @@
 body{
     background-color:  #f1dede;
+    height: 100%;
+    margin: 0;
+    padding: 0;
 }
+
+header {
+  background-color: #fff;
+  box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.5);
+  padding: 1em;
+  background-color: #1f5673;
+}
+
+.menu {
+    max-width: 100%;
+    padding: 0 1em;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+  
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin-top: 1em;
+}
+  
+nav li {
+    display: inline-block;
+    margin-right: 1em;
+}
+  
+  nav a:hover {
+    color: #ec2b2b;
+    background-color: #0077be;
+    border-radius: 3px;
+    padding: 0.1em;
+    transition: all 0.3s ease;
+}
+
 h1 {
     font-family: "fjalla one";
+    font-size: 60px;
+    margin: 0;
     text-align: center;
-    font-size: 48px;
+    text-shadow:0 0 20px #00FFFC,2px 3px 3px #141414, 0 0 100px #00D4D1;color:#00FFFC;
 }
+
 h3 {
     font-family: "fjalla one";
     padding-top: 60px;
     padding-bottom: 60px;
 }
+
 p{
     font-family: "Lexend Deca"
 }
-.logo img {
-    width: 15%;
-    height:15%;
-    
+
+.logo img{
+    width: 180px;
+    height: 80px;
 }
+
 .entreprise {
     display: flex;
+    padding-top: 50px;
 }
+
 .entreprise p{
     display: block;
     width: 300px;
     padding-left: 40px;
     text-align: justify;
 }
+
 .entreprise img {
     width: 25%;
     height: 25%;
@@ -35,15 +90,18 @@ p{
     box-shadow: 5px 5px 15px black;
     border-radius: 10px;
 }
+
 .bestsellers{
     display: flex;
 }
+
 .bestsellers p{
     display: block;
     width: 300px;
     padding-left: 40px;
     text-align: justify;
 }
+
 .bestsellers img{
     width: 200px;
     height: 200px;
